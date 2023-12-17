@@ -1,0 +1,37 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="villas.master.cs" Inherits="villas.villas" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title>Villas Home Page</title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="Main.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div class="Header">
+            <div class="Header-logo">
+                <image>logo</image>
+            </div>
+    <h2 class="title1">Villas Wholesale</h2>
+</div>
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+        <div class="row">
+        <div class="Footer">
+            <h2>Quick links</h2>
+            </div>
+            <div class="Footer">
+                <h2>Contact Us</h2>
+            </div>
+            <div class="Footer">
+             <h2>Location</h2>
+            </div>
+        </div>
+    </form>
+</body>
+</html>
